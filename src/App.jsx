@@ -44,7 +44,7 @@ const App = () => {
       price: 3.79,
       discount: 0,
       availability: true,
-      image: 'src/assets/yoghurt.jpg' // Local image in public folder
+      image: 'src/assets/yoghurt.jpeg' // Local image in public folder
     },
     {
       id: 6,
