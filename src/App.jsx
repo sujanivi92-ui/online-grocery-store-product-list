@@ -44,7 +44,7 @@ const App = () => {
       price: 3.79,
       discount: 0,
       availability: true,
-      image: 'https://images.unsplash.com/photo-1567175327165-897737c3f736?w=150'
+      image: 'assets/yoghurt.jpg' // Local image in public folder
     },
     {
       id: 6,

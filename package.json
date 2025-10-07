@@ -2,18 +2,23 @@
   "name": "online-grocery-store-product-list",
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://sujanivi92-ui.github.io/online-grocery-store-product-list",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "start": "react-scripts start"
   },
   "dependencies": {
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.3",
     "vite": "^4.4.5"
-  },
-  "homepage": "https://sujanivi92-ui.github.io/online-grocery-store-product-list"
+  }
 }
